@@ -1,0 +1,9 @@
+# 8.完成以下實作
+
+def count_sheep(num)
+  (1..num).to_a.map{|num| "#{num} sheep..." }.join
+end
+
+puts count_sheep(1)  # 印出 1 sheep...
+puts count_sheep(2)  # 印出 1 sheep...2 sheep...
+puts count_sheep(3)  # 印出 1 sheep...2 sheep...3 sheep...
